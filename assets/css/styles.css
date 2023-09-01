@@ -74,6 +74,14 @@
 
 /*========== Button Dark/Light ==========*/
 
+/*========== Fonts ==========*/
+@font-face {
+  font-family: 'Teko';
+  src: url('assets/fonts/Teko-Bold.ttf') format('truetype');
+}
+body {
+  font-family: 'Teko', sans-serif;
+}
 
 /*==================== BASE ====================*/
 * {
