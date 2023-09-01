@@ -75,13 +75,15 @@
 /*========== Button Dark/Light ==========*/
 
 /*========== Fonts ==========*/
-@font-face {
-  font-family: 'Teko';
-  src: url('assets/fonts/Teko-Bold.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600&display=swap');
 body {
   font-family: 'Teko', sans-serif;
 }
+
+.social h2 {
+  font-family: 'Teko', sans-serif;
+}
+
 
 /*==================== BASE ====================*/
 * {
