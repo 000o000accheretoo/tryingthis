@@ -7,11 +7,6 @@ html {
   cursor: url('assets/img/Unavailable.ani'), default;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .title {
 	font-size: 'Teko', cursive;
 	font-weight: bold;
