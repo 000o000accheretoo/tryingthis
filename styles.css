@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  cursor: url('assets/img/icon.ico'), default;
 }
 
 img {
@@ -16,16 +17,28 @@ img {
 	font-weight: bold;
 }
 
-.videobg video {
+#myVideo {
 	position: absolute;
 
-	top: auto;
-	left: auto;
+	top: 50%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: -100;
 	object-fit: cover;
-	height: auto;
-	width: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.videobg video {
+	position: absolute;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -100;
+	object-fit: cover;
+	height: 50%;
+	width: 50%;
 }
 
 .videobg {
@@ -34,7 +47,7 @@ img {
 
 @media only screen and (min-width:768px) {
 	.videobg video {
-		width: auto;
+		width: 100vw;
 		height: auto;
 	}
 
