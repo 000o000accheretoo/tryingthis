@@ -7,6 +7,11 @@ img {
   height: auto;
 }
 
+title {
+	font-size: 'Teko', cursive;
+	font-weight: bold;
+}
+
 .text-shit {
 	position: fixed;
 	z-index: 2;
