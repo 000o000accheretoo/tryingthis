@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  cursor: url('assets/img/Unavailable.ani'), default;
 }
 
 img {
