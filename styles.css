@@ -4,7 +4,6 @@
 
 html {
   scroll-behavior: smooth;
-  cursor: url('assets/img/icon.ico'), default;
 }
 
 img {
@@ -95,6 +94,14 @@ img {
 	cursor: pointer;
 	animation: rainbow_animation 6s ease-in-out infinite;
 	background-size: 400% 100%;
+}
+
+.rainbow {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 32px;
+	font-family: monospace;
+	letter-spacing: 5px;
 }
 
 .shit h2 {
