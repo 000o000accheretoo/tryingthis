@@ -48,6 +48,24 @@
         .social ul li a img {
             max-width: 100px;
         }
+
+        .videobg {
+            position: relative;
+            width: 50%; /* You can adjust the initial width as needed */
+            padding: 10px; /* Space between the video and the border */
+            border: 2px solid #ccc; /* Initial border style */
+            overflow: hidden;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+        }
+
+        .resizable {
+            resize: both;
+            overflow: auto;
+        }
     </style>
 
 
@@ -79,7 +97,7 @@
             </div>
             <div class="videobg">
                 <div id="video_cov"></div>
-                <video id="vid" autoplay loop muted width="900" height="900">
+                <video id="vid" autoplay loop>
                     <source src="assets/img/nae.mp4" type="video/mp4">
                   </video>
             </div>
