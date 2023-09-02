@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko">
     <link rel="stylesheet" href="assets/fonts/Teko/static/TekoBold.ttf" type="assets/font/ttf">
 
+    <script>
+        function toggleMute() {
+            var video = document.getElementById("vid");
+    
+            if (video.muted) {
+                video.muted = false;
+            } else {
+                video.muted = true;
+            }
+        }
+    </script>
+
     <style>    
         .main {
             display: flex;
@@ -65,7 +77,7 @@
             </div>
             <div class="videobg">
                 <div id="video_cov"></div>
-                <video id="vid" autoplay loop>
+                <video id="vid" autoplay loop muted>
                     <source src="assets/img/nae.mp4" type="video/mp4">
                   </video>
             </div>
