@@ -33,8 +33,9 @@ img {
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
-	font-size: 50px;
+	font-size: 20px;
 	font-weight: bold;
+	font-family: 'Teko', cursive;
 	padding: 5px 20px;
 	border-width: 0;
 	cursor: pointer;
@@ -44,6 +45,7 @@ img {
 
 .shit h2 {
 	font-family: 'Teko', cursive;
+	font-size: 30px;
 	letter-spacing: 0.2em;
 	background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
 	-webkit-background-clip: text;
