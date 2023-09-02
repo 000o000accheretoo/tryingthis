@@ -113,6 +113,10 @@ img {
   height: auto;
 }
 
+title {
+  font-family: Teko;
+}
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
@@ -167,8 +171,12 @@ img {
 /* Change background header */
 
 
-/*==================== HOME ====================*/
-
+/*==================== FONTS ====================*/
+@font-face {
+  font-family: "CustomFont";
+  src: url("assets/fonts/Teko-Bold.ttf");
+  src: url("assets/fonts/TekoBold.woff2") format("woff2")
+}
 
 /*==================== BUTTONS ====================*/
 
