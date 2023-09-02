@@ -16,7 +16,28 @@ img {
 	font-weight: bold;
 }
 
+.rainbow_text_animated {
+	background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	animation: rainbow_animation 6s ease-in-out infinite;
+	background-size: 400% 100%;
+}
+
 #myVideo {
+	position: absolute;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -100;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.videobg video {
 	position: absolute;
 
 	top: 50%;
