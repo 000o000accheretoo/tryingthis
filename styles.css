@@ -42,6 +42,17 @@ img {
 	background-size: 400% 100%;
 }
 
+.shit h2 {
+	font-family: 'Teko', cursive;
+	letter-spacing: 0.2em;
+	background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	animation: rainbow_animation 6s ease-in-out infinite;
+	background-size: 400% 100%;
+}
+
 body {
 	background: rgb(0,0,0);
 	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(92,3,0,1) 40%, rgba(190,1,0,1) 80%, rgba(255,0,0,1) 100%);
