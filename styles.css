@@ -11,7 +11,7 @@ img {
   height: auto;
 }
 
-title {
+.title {
 	font-size: 'Teko', cursive;
 	font-weight: bold;
 }
