@@ -108,24 +108,6 @@ html {
 	letter-spacing: 5px;
 }
 
-.stuff h3 {
-	background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
-	border-color: black;
-	border-radius: 90px;
-	display: inline-block;
-	-webkit-background-clip: text;
-	background-clip: text;
-	color: transparent;
-	font-size: 30px;
-	font-weight: bold;
-	font-family: 'Teko', cursive;
-	padding: 10px 30px;
-	border-width: 0;
-	cursor: pointer;
-	animation: rainbow_animation 6s ease-in-out infinite;
-	background-size: 400% 100%;
-}
-
 .shit h2 {
 	font-family: 'Acme', cursive;
 	font-size: 30px;
