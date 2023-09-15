@@ -1,6 +1,6 @@
 function toggleMute() {
 
-    var video=document.getElementById("VUD")
+    var video=document.getElementById("meow")
     
     if(video.muted){
         video.muted = false;
