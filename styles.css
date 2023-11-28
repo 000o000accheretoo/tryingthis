@@ -101,11 +101,20 @@ html {
 }
 
 .ah {
-	font-size: 20px;
-	padding: 5px 20px;
-	cursor: pointer;
+	background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+	border-color: black;
 	border-radius: 61px;
-
+	display: inline-block;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Teko', cursive;
+	padding: 5px 20px;
+	border-width: 0;
+	cursor: pointer;
+	background-size: 400% 100%;
 }
 
 .h-fasz {
