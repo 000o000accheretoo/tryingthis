@@ -7,6 +7,8 @@
         body {
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif; /* Change the font-family as needed */
+            color: black; /* Set the text color */
         }
 
         .bg {
@@ -36,13 +38,13 @@
             padding: 10px 20px;
             border-radius: 61px;
             position: absolute;
-            top: 10px;  /* Adjust this value based on your preference */
+            top: 10px; /* Adjust this value based on your preference */
             left: 50%;
             transform: translateX(-50%);
         }
 
         .Download {
-            background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+            background: none; /* Remove the gradient background */
             border-color: black;
             border-radius: 61px;
             display: flex;
@@ -52,25 +54,22 @@
             height: 50vh;
             position: absolute;
             top: 50%;
-            left: 10px;  /* Adjust this value based on your preference */
+            left: 10px; /* Adjust this value based on your preference */
             transform: translateY(-50%);
+            padding: 20px;
         }
 
         .ah {
-            background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+            background: none; /* Remove the gradient background */
             border-color: black;
             border-radius: 0px;
             display: inline-block;
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
+            color: black;
             font-size: 20px;
             font-weight: bold;
             padding: 5px 20px;
             border-width: 0;
             cursor: pointer;
-            background-size: 400% 100%;
-            font-size: 13px;
         }
 
         .ah:active {
