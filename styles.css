@@ -100,6 +100,14 @@ html {
 	background-size: 400% 100%;
 }
 
+.ah {
+	font-size: 20px;
+	padding: 5px 20px;
+	cursor: pointer;
+	border-radius: 61px;
+
+}
+
 .h-fasz {
 	background: linear-gradient(to right, #530000, #ff0000, #ff5c5c, #8f1313, #720000);
 	border-color: black;
