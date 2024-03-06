@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Iskola Geciség</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif; /* Change the font-family as needed */
+            color: white; /* Set the text color */
+        }
+
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('assets/img/bg.png');
+            background-size: cover;
+            background-position: center;
+            z-index: -100;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            height: 10vh;
+            padding: 10px 20px;
+            border-radius: 61px;
+            position: absolute;
+            top: 10px; /* Adjust this value based on your preference */
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .Download {
+            background: none; /* Remove the gradient background */
+            border-color: black;
+            border-radius: 61px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            height: 50vh;
+            position: absolute;
+            top: 50%;
+            left: 10px; /* Adjust this value based on your preference */
+            transform: translateY(-50%);
+            padding: 20px;
+        }
+
+        .ah {
+            background: none; /* Remove the gradient background */
+            border-color: black;
+            border-radius: 0px;
+            display: inline-block;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 5px 20px;
+            border-width: 0;
+            cursor: pointer;
+        }
+
+        .ah:active {
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg"></div>
+
+    <header>
+        <div class="title">
+            <h2>Kell cucc az iskolához? Jó helyre jöttél!</h2>
+        </div>
+
+        <div class="Download">
+            <h2>Angol geci</h2>
+            <button class="ah" onclick="window.open('https://cdn.discordapp.com/attachments/1169644384510292041/1179086187147833506/514089124-Project-4e-Level4-Teachers-Book.pdf?ex=65788095&is=65660b95&hm=34cc77150ba01428415d98a58d680ba82906e8f324ff031fa9386fe46e096837&', '_blank')">Project 4 level 4 tanári könyv</button>
+			<button class="ah" onclick="window.open('https://cdn.discordapp.com/attachments/1169644384510292041/1179104707696939008/389432067-Project-4th-edition-Workbook-4-answer-key-pdf-1.pdf?ex=657891d5&is=65661cd5&hm=9074d18bc430af99088488b4fcf916ba49723829e9b9e5393eaae793a6a20586&', '_blank')">Angol mf megoldások</button>
+        </div>
+    </header>
+</body>
+
+</html>
