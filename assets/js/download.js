@@ -1,19 +1,9 @@
 function downloadZip() {
-    // Create an anchor element
     var link = document.createElement("a");
-    
-    // Set the href attribute to the path of the zip file
     link.href = "mods/mods.zip";
-    
-    // Set the download attribute to the file name you want the user to see
-    link.download = "mods.zip";
-    
-    // Append the anchor element to the body
+    link.target = "_blank"; // Open in a new tab/window
+    link.style.display = "none"; // Hide the link
     document.body.appendChild(link);
-    
-    // Trigger a click event on the anchor element
-    link.click();
-    
-    // Remove the anchor element from the body
+    link.click(); // Simulate click
     document.body.removeChild(link);
 }
