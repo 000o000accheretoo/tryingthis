@@ -16,6 +16,23 @@
      background-color: rgb(61, 0, 0);
  }
  
+
+ .container {
+     position: relative; /* Ensure the container is positioned relative */
+     min-height: 100vh; /* Set a minimum height to fill the viewport */
+ }
+ 
+ h2 {
+     position: absolute; /* Position the h2 element absolutely */
+     bottom: 0; /* Position it at the bottom */
+     left: 50%; /* Optionally, align it to the left */
+     margin-bottom: 20px; /* Add some margin for spacing */
+ }
+
+ .tut-btn {
+     color: #2256e7;
+ }
+ 
    
    .b, .o, .u, .n, .c, .e {
      position: relative;
