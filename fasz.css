@@ -1,17 +1,67 @@
-#bounceTxt {
-     color: #265687;
-     font-family: "DejaVu Sherif", serif;
-     font-size: 72px;
-     font-weight: 400;
-     letter-spacing: -0.05em;
-     text-align: center;
-     text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
- }
- 
- .bounce-me {
-     -webkit-animation: bounce 4s infinite ease-in-out;
-     animation: bounce 4s infinite ease-in-out;
- }
+.bouncing-text {
+     position: relative;
+     display: flex;
+     font-size: 70px;
+     font-weight: 900;
+     /* font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;  */
+   }
+   
+   .b, .o, .u, .n, .c, .e {
+     position: relative;
+     color: #2256e7;
+     /* text-shadow: 0 3px #4361ee, 0 5px #4361ee, 0 7px #4361ee; */
+   }
+   
+   .b {
+     animation: bounce 1s ease infinite;
+     -webkit-animation: bounce 1s ease infinite;
+   }
+   
+   .o {
+     animation: bounce 1s ease infinite .1s;
+     -webkit-animation: bounce 1s ease infinite .1s;
+   }
+   
+   .u {
+     animation: bounce 1s ease infinite .2s;
+     -webkit-animation: bounce 1s ease infinite .2s;
+   }
+   
+   .n {
+     animation: bounce 1s ease infinite .3s;
+     -webkit-animation: bounce 1s ease infinite .3s;
+   }
+   
+   .c {
+     animation: bounce 1s ease infinite .4s;
+     -webkit-animation: bounce 1s ease infinite .4s;
+   }
+   
+   .e {
+     animation: bounce 1s ease infinite .5s;
+    -webkit-animation: bounce 1s ease infinite .5s;
+   }
+   
+    @keyframes bounce {
+           0%   { transform: scale(1,1) translateY(0); }
+           10%  { transform: scale(1.1,.9) translateY(0); }
+           30%  { transform: scale(.9,1.1)   translateY(-55px);}
+           50%  { transform: scale(1.05,.95) translateY(0); }
+           58%  { transform: scale(1,1) translateY(-7px); }
+           65%  { transform: scale(1,1) translateY(0);}
+           100% { transform: scale(1,1) translateY(0);}
+       }
+   
+   @-webkit-keyframes bounce {
+          0%   { transform: scale(1,1) translateY(0); }
+           10%  { transform: scale(1.1,.9) translateY(0); }
+           30%  { transform: scale(.9,1.1)   translateY(-55px);}
+           50%  { transform: scale(1.05,.95) translateY(0); }
+           58%  { transform: scale(1,1) translateY(-7px);}
+           65%  { transform: scale(1,1) translateY(0);}
+           100% { transform: scale(1,1) translateY(0);} 
+   }
+   
 
  .h-button {
      background-color: #4CAF50; /* Green */
@@ -29,21 +79,5 @@
 
  .h-button:hover {
      background-color: #45a049; /* Darker green */
- }
- 
- @-webkit-keyframes bounce {
-     60% {
-         -webkit-transform: translate(0px, -200px) scale(1.2);
-         opacity: 0.8;
-         text-shadow: 0px 150px 20px rgba(0, 0, 0, 0.8);
-     }
- }
- 
- @keyframes bounce {
-     60% {
-         -webkit-transform: translate(0px, -200px) scale(1.2);
-         opacity: 0.8;
-         text-shadow: 0px 150px 20px rgba(0, 0, 0, 0.8);
-     }
  }
  
