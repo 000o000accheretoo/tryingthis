@@ -1,7 +1,9 @@
 .bouncing-text {
      position: absolute;
-     top: 85%; /* Center vertically */
-     left: 50%; /* Center horizontally */
+     top: 35%; /* Adjust the vertical position of the bouncing text */
+     left: 50%;
+     transform: translate(-50%, -50%);
+     transform: translate(-50%, 50%); /* Adjust to make it slightly lower */
      display: flex;
      justify-content: center;
      align-items: center;
@@ -68,6 +70,13 @@
    }
    
 
+.Buttons {
+     position: absolute;
+     top: 65%; /* Adjust the vertical position of the buttons */
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
  .h-button {
      background-color: #4CAF50; /* Green */
      border: none;
@@ -80,9 +89,6 @@
      margin: 4px 2px;
      cursor: pointer;
      border-radius: 10px; /* Rounded corners */
-     position: relative;
-     top: 65%;
-     left: 50%;
  }
 
  .h-button:hover {
