@@ -1,6 +1,6 @@
 // Function to smoothly transition between two colors
 function transitionColors() {
-    var body = document.querySelector('.body');
+    var body = document.querySelector('body');
     var duration = 5000; // Duration of transition in milliseconds
 
     // Add the class to change background color
