@@ -9,10 +9,60 @@
                 color: blue;
             }
 
+            p {
+     color: #265687;
+     font-family: "DejaVu Sherif", sherif;
+     font-size: 72px;
+     font-weight: 400;
+     letter-spacing: -0.05em;
+     text-align: center;
+     text-shadow: 3px 5px 5px rgba(0, 0, 0, .3);
+     
+     em {
+          font-style: normal;
+          display: inline-block;
+          
+          &:nth-child(1) {
+               color: #265687;
+          }
+
+          &:nth-child(2) {
+               color: #265687;
+          }
+
+          &:nth-child(3) {
+               color:#265687;
+          }
+
+          &:nth-child(4) {
+               color: #265687;
+          }
+
+          &:nth-child(5) {   
+               color: #265687;
+          }
+
+          &:nth-child(6) {
+               color: #265687;
+          }
+          
+          &.bounce-me {
+               -webkit-animation: bounce 4s infinite ease-in-out;
+               animation: bounce 4s infinite ease-in-out;
+          }
+     }
+}
+
+            body {
+                font-family: "DejaVu Sherif", sherif;
+             background-color: #ff7300; 
+            }
+
+
             .h-button {
         background-color: #4CAF50;
         border: none;
-        color: white;
+        color: rgb(255, 255, 255);
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
@@ -35,7 +85,7 @@
 
     <body>
         <header>
-            <h2>ALLAH!</h2>
+            <p id="bounceTxt">ALLAHU AKBAR!</p>
             <div class="Buttons">
                 <button class="h-button" onclick="window.open('https://youtube.com/@cruelness55', '_blank')">egybe mind (zip)</button>
                 <button class="h-button" onclick="window.open('https://twitter.com/cruelness55', '_blank')">test</button>
