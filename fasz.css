@@ -1,61 +1,31 @@
-.div {
-     position: absolute;
-     top: 85%;
-     width: 100%;
-}
-
-.p {
+#bounceTxt {
      color: #265687;
-     font-family: "DejaVu Sherif", sherif;
+     font-family: "DejaVu Sherif", serif;
      font-size: 72px;
      font-weight: 400;
      letter-spacing: -0.05em;
      text-align: center;
      text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
-
-     em {
-          font-style: normal;
-          display: inline-block;
-
-          &:nth-child(1) {
-               color: #265687;
-          }
-
-          &:nth-child(2) {
-               color:#265687;
-          }
-
-          &:nth-child(3) {
-               color:#265687;
-          }
-
-          &:nth-child(4) {
-               color: #265687;
-          }
-
-          &:nth-child(5) {
-               color: #265687;
-          }
-
-          &.bounce-me {
-               -webkit-animation: bounce 4s infinite ease-in-out;
-               animation: bounce 4s infinite ease-in-out;
-          }
-     }
-}
-
-@-webkit-keyframes bounce {
+ }
+ 
+ .bounce-me {
+     -webkit-animation: bounce 4s infinite ease-in-out;
+     animation: bounce 4s infinite ease-in-out;
+ }
+ 
+ @-webkit-keyframes bounce {
      60% {
-          -webkit-transform: translate(0px, -200px) scale(1.2);
-          opacity: 0.8;
-          text-shadow: 0px 150px 20px rgba(0, 0, 0, 0.8);
+         -webkit-transform: translate(0px, -200px) scale(1.2);
+         opacity: 0.8;
+         text-shadow: 0px 150px 20px rgba(0, 0, 0, 0.8);
      }
-}
-
-@keyframes bounce {
+ }
+ 
+ @keyframes bounce {
      60% {
-          -webkit-transform: translate(0px, -200px) scale(1.2);
-          opacity: 0.8;
-          text-shadow: 0px 150px 20px rgba(0, 0, 0, 0.8);
+         -webkit-transform: translate(0px, -200px) scale(1.2);
+         opacity: 0.8;
+         text-shadow: 0px 150px 20px rgba(0, 0, 0, 0.8);
      }
-}
+ }
+ 
