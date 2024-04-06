@@ -27,6 +27,7 @@
      bottom: 0; /* Position it at the bottom */
      left: 50%; /* Optionally, align it to the left */
      margin-bottom: 20px; /* Add some margin for spacing */
+     color: white;
  }
 
  .tut-btn {
