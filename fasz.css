@@ -12,6 +12,9 @@
      /* font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;  */
  }
  
+ .body {
+     background-color: #4b0000;
+ }
    
    .b, .o, .u, .n, .c, .e {
      position: relative;
