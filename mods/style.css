@@ -1,14 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
-
-div {
+.div {
      position: absolute;
-     top: 50%;
+     top: 85%;
      width: 100%;
 }
 
-p {
+.p {
      color: #265687;
-     font-family: "Montserrat Alternates", sans-serif;
+     font-family: "DejaVu Sherif", sherif;
      font-size: 72px;
      font-weight: 400;
      letter-spacing: -0.05em;
