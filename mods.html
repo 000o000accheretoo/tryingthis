@@ -74,6 +74,23 @@
         align-items: center;
     }
 
+    @-webkit-keyframes bounce {
+     60% {
+          -webkit-transform: translate(0px, -200px) scale(1.2);
+          opacity: 0.8;
+          text-shadow: 0px 150px 20px rgba(0, 0, 0, 0.8);
+     }
+}
+
+@keyframes bounce {
+     60% {
+          -webkit-transform: translate(0px, -200px) scale(1.2);
+          opacity: 0.8;
+          text-shadow: 0px 150px 20px rgba(0, 0, 0, 0.8);
+     }
+}
+
+
     .h-button:hover {
         background-color: #45a049; 
     }
