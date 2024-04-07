@@ -17,8 +17,21 @@
         }
     </style>
 
+<script>
+    var audio = document.getElementById("player");
+
+    audio.volume = 0.5;
+
+    function changeVolume(vol) {
+        audio.volume = vol;
+    }
+
+    changeVolume(0.75);
+</script>
+
+
     <body>
-        <audio id="player" loop=""><source src="helal.mp3" type="audio/mp3"></audio>
+        <audio id="player" autoplay loop=""><source src="helal.mp3" type="audio/mp3"></audio>
 
         <div class="bouncing-text">
             <div class="b">A</div>
