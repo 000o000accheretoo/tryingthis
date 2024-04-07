@@ -90,11 +90,6 @@
            65%  { transform: scale(1,1) translateY(0);}
            100% { transform: scale(1,1) translateY(0);} 
    }
-   
-.song {
-display: none;
-}
-
 
 .Buttons {
      position: absolute;
