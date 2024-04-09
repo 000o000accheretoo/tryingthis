@@ -12,7 +12,6 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 
 document.addEventListener('click', musicPlay);
 window.onload = function() {
-    blink();
     var promise = document.getElementById('player').play();
     if (promise !== undefined) {
         promise.then(_ => {
