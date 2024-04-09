@@ -23,7 +23,6 @@ window.onload = function() {
 }
 function musicPlay() {
     document.getElementById('player').play();
-    document.getElementById('autoplay').style.opacity = 0;
     document.removeEventListener('click', musicPlay);
 }
 
