@@ -65,6 +65,13 @@
 // Initialize marquee animation when document is ready
 $(document).ready(function() {
     $('.marquee').marqueeify({
+        speed: 500,
+        bumpEdge: function () {
+            var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
+            $('.marquee img').css('border-color', newColor); // Changed from .logo to img
+        }
+    });
+    $('.marquee2').marqueeify({
         speed: 300,
         bumpEdge: function () {
             var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
