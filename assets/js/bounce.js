@@ -72,3 +72,13 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).ready(function() {
+    $('.marquee2').marqueeify({
+        speed: 500,
+        bumpEdge: function () {
+            var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 70%)";
+            $('.marquee img').css('border-color', newColor); // Changed from .logo to img
+        }
+    });
+});
