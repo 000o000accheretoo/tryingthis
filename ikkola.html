@@ -1,36 +1,41 @@
-<html>
-
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الله أكبر</title>
     <link rel="stylesheet" href="fasz.css">
-</head>
     <style>
         body {
-            background-color:  rgb(50, 0, 0);
+            background-color: rgb(50, 0, 0);
         }
-
-        .Buttons img {
+        .button-container {
+            display: inline-block;
+            margin: 20px;
+        }
+        .button-container img {
             display: block;
             margin: 0 auto 10px;
         }
         
     </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- <h2>Nem tudod hogy kell .zip fájlt kicsomagolni? Kattints <span class="tut-btn-wrapper"><a href="assets/img/tut.mp4" target="_blank" class="tut-btn">ide.</a></span></h2> -->
+        </div>
 
-    <body>
-        <header>
-            <div class="container">
-                
-                <!-- <h2>Nem tudod hogy kell .zip fájlt kicsomagolni? Kattints <span class="tut-btn-wrapper"><a href="assets/img/tut.mp4" target="_blank" class="tut-btn">ide.</a></span></h2> -->
+        <div class="Buttons">
+            <div class="button-container">
+                <img src="assets/img/megh.png" alt="Búcsúztató meghívó" width="595" height="842">
+                <a href="assets/img/megh.png" download="megh.png" class="h-button">Búcsúztató meghívó</a>
             </div>
-
-            <div class="Buttons">
-                <!-- <a href="mods/mods.zip" download="mods.zip" class="h-button">Összes mod letöltése (zip)</a> -->
-                <a href="assets/img/megh.png" class="h-button">Búcsúztató meghívó</a>
-                <img src="assets/img/megh.png" alt="Búcsúztató meghívó" width="500" height="500">
+            <div class="button-container">
+                <img src="assets/img/another.png" alt="Another image" width="100" height="100">
+                <a href="assets/img/another.png" download="another.png" class="h-button">Another Button</a>
             </div>
-           
-        </header>
-    </body>
-   
+        </div>
+    </header>
+</body>
 </html>
