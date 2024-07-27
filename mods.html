@@ -1,59 +1,124 @@
-<html>
-
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <script type="text/javascript" src="assets/js/bundle-playback.js" charset="utf-8"></script>
-    <script type="text/javascript" src="assets/js/wombat.js" charset="utf-8"></script>
-    <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-    <script type="text/javascript" src="assets/js/ruffle.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko">
+    <link rel="stylesheet" href="assets/fonts/Teko/static/TekoBold.ttf" type="assets/font/ttf">
+
+    <script>
+        function toggleMute() {
+            var video = document.getElementById("myVideo");
     
-    
-            <title>الله أكبر</title>
-            <link rel="stylesheet" href="fasz.css">
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/bounce.js"></script> 
-            <script src="assets/js/index.js"></script> 
-        </head>
-    
+            if (video.muted) {
+                video.muted = false;
+            } else {
+                video.muted = true;
+            }
+        }
+    </script>
+
     <style>
+        
+    
+        .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            font-family: "Teko", sans-serif;
+        }
+
+        .social {
+            text-align: center;
+        }
+
+        .social ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social ul li {
+            margin: 0 10px;
+        }
+
+        .social ul li a img {
+            max-width: 100px;
+        }
+
+        .videobg {
+            position: relative;
+            width: 100%;
+            height: 920px;           
+            overflow: hidden;
+        }
+
+
+        video {
+            width: 100%;
+            height: 100%;
+        }
+
         body {
-            background-color: black;
+            margin: 0;
+            padding: 0;
         }
 
-        .red-background {
-            background-color: rgb(50, 0, 0);
+        .resizable {
+            resize: both;
+            overflow: auto;
         }
 
+        .other {
+		text-align: right;
+		padding: 20px;
+		display: table-cell;
+		vertical-align: right;
+	}
     </style>
 
-    <body>
-        <div class="marquee" style="left: 300px; top: 300px;">
-            <img src="assets/img/allah.gif" width="100" height="100">
-        </div>
-        <div class="marquee2" style="left: 300px; top: 300px;">
-            <img src="assets/img/allah.gif" width="100" height="100">
-        </div>
-        <audio id="player" loop=""><source src="helal.mp3" type="audio/mp3"></audio>
-        <div class="bouncing-text">
-            <div class="b">A</div>
-            <div class="o">L</div>
-            <div class="u">L</div>
-            <div class="n">A</div>
-            <div class="c">H</div>
-            <div class="e">!</div>
-          </div>
-        <header>
-            <div class="container">
-                
-                <!-- <h2>Nem tudod hogy kell .zip fájlt kicsomagolni? Kattints <span class="tut-btn-wrapper"><a href="assets/img/tut.mp4" target="_blank" class="tut-btn">ide.</a></span></h2> -->
-            </div>
 
-            <div class="Buttons">
-                <!-- <a href="mods/mods.zip" download="mods.zip" class="h-button">Összes mod letöltése (zip)</a> -->
-                <a href="https://discord.gg/yondercheats" class="h-button">Unbanned Gtag Accs</a>
+    <style>
+       .title {
+        font-family: 'Teko';
+       } 
+    </style> 
+
+    <title> Cruelness55's Crib </title>
+    <link rel="shortcut icon" href="assets/img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    </head>
+
+    <body>
+        <header>
+            <div class="other">
+                <button class="h-fasz" onclick="window.open('https://cruelness55.com/iskola', '_blank')">Idk</button>
             </div>
-           
+            <div class="text-shit">
+                <div class="shit">
+                    <h2> Cruelness55 </h2>
+                    <button class="h-button" onclick="window.open('https://youtube.com/@cruelness55', '_blank')">Youtube</button>
+                    <button class="h-button" onclick="window.open('https://twitter.com/cruelness55', '_blank')">Twitter</button>
+                    <button class="h-button" onclick="window.open('https://tiktok.com/@cruelness55', '_blank')">Tiktok</button>
+                    <button class="h-button" onclick="window.open('https://github.com/000o000accheretoo', '_blank')">Github</button>
+                    <button class="h-button" onclick="window.open('https://discord.gg/CAh9SMVy', '_blank')">Discord</button>
+                    <button class="h-button" onclick="window.open('https://discord.foretell.cc/CAh9SMVy', '_blank')">Foretell</button>
+                    <button class="h-button" onclick="toggleMute();">Unmute/Mute</button>                   
+                </div>                
+            </div>
+            <div class="video-container">
+                <div id="video_cover"></div>
+                <video id="myVideo" autoplay loop>
+                    <source src="assets/img/smallersize.mp4" type="video/mp4">
+                </video>
+              </div>
         </header>
     </body>
-   
+
 </html>
