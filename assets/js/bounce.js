@@ -4,7 +4,7 @@
             horizontal: true,
             vertical: true,
             speed: 100,
-            container: $(window),  // Changed to use the entire window
+            container: $(window),  // Use the full window as the container
             bumpEdge: function () {}
         }, options);
         
@@ -13,10 +13,19 @@
                 $el = $(this);
 
             getSizes = function () {
-                containerWidth = settings.container.width();  // Use width() for the window
-                containerHeight = settings.container.height();  // Use height() for the window
+                containerWidth = settings.container.width();
+                containerHeight = settings.container.height();
                 elWidth = $el.outerWidth();
                 elHeight = $el.outerHeight();
+            };
+
+            var setRandomStartPosition = function() {
+                var randomLeft = Math.random() * (containerWidth - elWidth);
+                var randomTop = Math.random() * (containerHeight - elHeight);
+                $el.css({
+                    left: randomLeft,
+                    top: randomTop
+                });
             };
 
             move = {
@@ -67,6 +76,7 @@
             };
 
             getSizes();
+            setRandomStartPosition();  // Set initial random position
 
             if (settings.horizontal) {
                 move.right();
