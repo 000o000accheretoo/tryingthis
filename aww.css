@@ -21,6 +21,16 @@ body {
     height: 50px;
     position: absolute;
 }
+
+.centered-image {
+  position: fixed; /* Keeps the image fixed at the bottom */
+  bottom: 0;       /* Aligns it to the bottom of the viewport */
+  left: 50%;       /* Moves the image to the center horizontally */
+  transform: translateX(-50%); /* Centers the image exactly by offsetting half its width */
+  z-index: 1000;   /* Ensures the image stays on top of other content */
+}
+
+
 .nointentsmall.left {
   top: 0%;
   right: 0%;
