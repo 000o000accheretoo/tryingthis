@@ -22,6 +22,10 @@ body {
     position: absolute;
 }
 
+button, a {
+  cursor: url("cursor.png"), pointer; /* Use the custom cursor for buttons and links */
+}
+
 .centered-image {
   position: fixed; /* Keeps the image fixed at the bottom */
   bottom: 0;       /* Aligns it to the bottom of the viewport */
