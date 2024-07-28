@@ -313,7 +313,7 @@ footer {
 
   .marquee {
     display: block;
-    left: 100;
+    left: 100px;
     position: absolute;
     top: 0;
   }
